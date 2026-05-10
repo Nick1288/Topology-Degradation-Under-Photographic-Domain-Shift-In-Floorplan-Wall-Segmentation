@@ -81,23 +81,12 @@ These metrics are used because floorplans need to be structurally coherent, not 
 | Mitigation test | Tests simple preprocessing such as contrast enhancement |
 | Rule ablation | Checks how sensitive the validity decision is to threshold choices |
 
-## How To Explain It Quickly
+## Repository Outputs
 
-The shortest explanation is:
+The project produces:
 
-> I worked on making floorplan segmentation more robust when the input is a real photograph instead of a clean digital image. I built a photo preprocessing and fine-tuning pipeline for CubiCasa5K, trained the model on photographed floorplans, and evaluated the results with structural metrics that check whether walls remain connected and rooms remain enclosed.
-
-## What To Show Instead Of A Live Demo
-
-If the dataset or GPU environment is unavailable, show static outputs in this order:
-
-1. raw photographed floorplan
-2. rectified/cropped benchmark image
-3. predicted wall and door masks
-4. clean-vs-photo overlay
-5. `paired_results.csv` summary
-6. mitigation figure
-7. final thesis table
-
-This demonstrates the full pipeline without needing to run the model live.
-
+- rectified and cropped photographed floorplan inputs
+- predicted wall-like and door masks
+- clean-vs-photo paired evaluation CSV files
+- degradation and mitigation summaries
+- thesis tables and appendix figures

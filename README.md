@@ -17,19 +17,19 @@ src/
   floortrans/          CubiCasa/FloorplanTransformation model dependency
 docs/
   index.html           Static project page for GitHub Pages
-  project_brief.md     One-page project explanation for quick review/interviews
+  project_brief.md     Project summary and technical scope
   workflow.md          Pipeline diagram and script map
 ```
 
 ## Project Page
 
-For a quick visual overview, open:
+For a visual overview of the project, open:
 
 ```text
 docs/index.html
 ```
 
-This page is intended as a lightweight demo substitute. It presents the problem, pipeline, headline results, and key figures without requiring the dataset, model weights, or a GPU environment.
+This page presents the problem, pipeline, headline results, and key figures.
 
 ## Main Training Script
 

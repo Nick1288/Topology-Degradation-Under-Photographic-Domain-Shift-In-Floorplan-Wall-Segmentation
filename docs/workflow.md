@@ -33,15 +33,6 @@ flowchart LR
 | Mitigation test | `src/experiments/06_mitigation_test.py` |
 | Generate thesis tables | `src/reporting/01_generate_thesis_tables.py` |
 
-## Suggested Static Walkthrough
+## Output Artifacts
 
-For interviews or viva discussions, open:
-
-1. `docs/project_brief.md`
-2. `docs/workflow.md`
-3. one example output folder from the photo benchmark
-4. one clean-vs-photo overlay
-5. one result CSV/table
-
-That sequence is usually enough to explain the project without a live demo.
-
+The workflow produces prediction masks, paired evaluation CSV files, structural metric summaries, and figures used in the thesis report.
