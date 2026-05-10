@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Datasets and experiment outputs
+data/
+localdata/
+localdb/
+raw_photos/
+runs*/
+outputs/
+*_out/
+*_outputs/
+debug*/
+overlays/
+preds*/
+cache_targets/
+
+# Generated files
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+*.tex
+
+# Model weights and archives
+*.pth
+*.pkl
+*.pt
+*.ckpt
+*.zip
+
+!requirements.txt
+!src/**/*.py
+!src/**/*.md
